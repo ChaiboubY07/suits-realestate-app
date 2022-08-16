@@ -7,7 +7,7 @@ import Hook from "../components/Hook";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
-import Services from "../Components/Services";
+import Services from "../components/Services";
 
 export const Banner = ({
   purpose,
