@@ -2,12 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { Flex, Box, Text, Button, Container } from "@chakra-ui/react";
 
-import Property from "../components/Property";
-import Hook from "../components/Hook";
+import Property from "../Components/Property";
+import Hook from "../Components/Hook";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { baseUrl, fetchApi } from "../utils/fetchApi";
-import Services from "../components/Services";
+import Services from "../Components/Services";
 
 export const Banner = ({
   purpose,
